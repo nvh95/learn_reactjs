@@ -41,7 +41,7 @@ const Button = (props) => {
     	button = <button className="btn btn-danger"><i className="fa fa-times"></i></button>
       break;
     default:
-   		button = <button className="btn"
+   		button = <button className="btn btn-info"
       onClick={props.checkAnswer}
       disabled={props.selectedNumbers.length === 0}>=</button>
       break;
